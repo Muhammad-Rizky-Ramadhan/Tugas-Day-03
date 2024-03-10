@@ -51,12 +51,11 @@ public class DetailActivity extends AppCompatActivity {
         tvSinopsisText.setText(sinopsisText);
         tvSinopsis.setText(sinopsis);
 
-        // Tombol Share
         Button btnShare = findViewById(R.id.btnShare);
         btnShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                shareContent(detail);  // Ganti dengan data yang ingin Anda bagikan
+                shareContent(detail);
             }
         });
     }
